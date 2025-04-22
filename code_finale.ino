@@ -241,12 +241,11 @@ void loop() {
 
       lcd.setCursor(0, 0);
 
-      lcd.print("Capteur non");
+      lcd.print("Capteur inactive");
 
       lcd.setCursor(0, 1);
 
-      lcd.print("active");
-
+      lcd.print("Activation:0000");
       matrix.clearDisplay(0);
     previousDisplayMillis = currentMillis;
   }
